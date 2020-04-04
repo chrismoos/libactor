@@ -10,7 +10,8 @@ In a future release there will be sandboxing of each actor.
 
 To install::
 
-    ./configure
+    mkdir build && cd build
+    cmake ..
     make
     sudo make install
 
